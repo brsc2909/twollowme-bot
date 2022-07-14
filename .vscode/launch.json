@@ -5,11 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Python: Main",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
+            "program": "${workspaceFolder}/twollowme_bot/main.py",
+            "args": ["--query", "@brsc2909 #github"],
+            "console": "integratedTerminal",
+            "justMyCode": false,
         }
     ]
 }
